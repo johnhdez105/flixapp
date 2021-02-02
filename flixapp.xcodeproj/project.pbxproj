@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		22ADEB9F25C903B600D461EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADEB9E25C903B600D461EF /* AppDelegate.swift */; };
 		22ADEBA125C903B600D461EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADEBA025C903B600D461EF /* SceneDelegate.swift */; };
-		22ADEBA325C903B600D461EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADEBA225C903B600D461EF /* ViewController.swift */; };
 		22ADEBA625C903B600D461EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ADEBA425C903B600D461EF /* Main.storyboard */; };
 		22ADEBA825C903B700D461EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ADEBA725C903B700D461EF /* Assets.xcassets */; };
 		22ADEBAB25C903B700D461EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ADEBA925C903B700D461EF /* LaunchScreen.storyboard */; };
 		22ADEBB625C903B700D461EF /* flixappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADEBB525C903B700D461EF /* flixappTests.swift */; };
 		22ADEBC125C903B700D461EF /* flixappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADEBC025C903B700D461EF /* flixappUITests.swift */; };
+		22ADEBD525C9074300D461EF /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADEBD425C9074200D461EF /* MoviesViewController.swift */; };
+		22ADEBDA25C91B3900D461EF /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADEBD925C91B3900D461EF /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		22ADEB9B25C903B600D461EF /* flixapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flixapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22ADEB9E25C903B600D461EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22ADEBA025C903B600D461EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22ADEBA225C903B600D461EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22ADEBA525C903B600D461EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22ADEBA725C903B700D461EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22ADEBAA25C903B700D461EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		22ADEBBC25C903B700D461EF /* flixappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flixappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22ADEBC025C903B700D461EF /* flixappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixappUITests.swift; sourceTree = "<group>"; };
 		22ADEBC225C903B800D461EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22ADEBD425C9074200D461EF /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		22ADEBD925C91B3900D461EF /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				22ADEB9E25C903B600D461EF /* AppDelegate.swift */,
 				22ADEBA025C903B600D461EF /* SceneDelegate.swift */,
-				22ADEBA225C903B600D461EF /* ViewController.swift */,
 				22ADEBA425C903B600D461EF /* Main.storyboard */,
 				22ADEBA725C903B700D461EF /* Assets.xcassets */,
 				22ADEBA925C903B700D461EF /* LaunchScreen.storyboard */,
 				22ADEBAC25C903B700D461EF /* Info.plist */,
+				22ADEBD425C9074200D461EF /* MoviesViewController.swift */,
+				22ADEBD925C91B3900D461EF /* MovieCell.swift */,
 			);
 			path = flixapp;
 			sourceTree = "<group>";
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22ADEBA325C903B600D461EF /* ViewController.swift in Sources */,
 				22ADEB9F25C903B600D461EF /* AppDelegate.swift in Sources */,
 				22ADEBA125C903B600D461EF /* SceneDelegate.swift in Sources */,
+				22ADEBDA25C91B3900D461EF /* MovieCell.swift in Sources */,
+				22ADEBD525C9074300D461EF /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
