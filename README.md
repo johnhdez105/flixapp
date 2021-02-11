@@ -39,7 +39,7 @@ One of the challenges I face during this part was getting the segue to work. It 
 
 ### App Walkthrough GIF
 
-<img src="https://i.imgur.com/lHRJN90.gif" width=250><br>
+<img src="https://i.imgur.com/WxrDtC3.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
