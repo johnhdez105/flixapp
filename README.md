@@ -16,7 +16,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthrough GIF
 
-<img src="https://i.imgur.com/lHRJN90D.gif" width=250><br>
+<img src="https://i.imgur.com/lHRJN90.gif" width=250><br>
 
 ### Notes
 One of the challenges I face during this part was getting the segue to work. It kept crashing whenever I tried to open up the movie, but I found that the fix for this was changing the class in the storyboard. I had accidentally set it to the wrong one.
